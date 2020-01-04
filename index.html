@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="css/colors.css">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+<body>
+
+<h1>The Great
+	<br>
+	<span id="colorDisplay">RGB</span>
+	<br>
+ 	Color Guessing Game</h1>
+
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="message"></span>
+	<button class="mode">Easy</button>
+	<button class="mode" class="selected">Tough</button>
+	<button class="mode">Tricky</button>
+	<button class="mode">Impossible!</button>
+</div>
+
+<div id="stripe2">
+	Choose which square matches the RGB color given above.
+	 <button class="trigger">Hint</button>
+</div>
+
+<div id="container">
+	<!-- Easy Mode -->
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<!-- Tough Mode -->
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<!-- Tricky Mode -->
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<!-- Impossible Mode -->
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>
+<div class="modal">
+    <div class="modal-content">
+        <span class="close-button">×</span>
+        <h2>This should help a bit.</h2>
+	 <img src="img/color-wheel.jpg">
+    </div>
+</div>
+
+<script type="text/javascript" src= "js/colorGame.js"></script>
+</body>
+</html>

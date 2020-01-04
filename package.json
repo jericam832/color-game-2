@@ -1,7 +1,7 @@
 {
-  "name": "colorGame",
-  "version": "1.0.0",
-  "description": "",
+  "name": "color-game-2",
+  "version": "2.0.0",
+  "description": "A color guessing game.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jsdom": "^15.2.1",
     "nodemon": "^2.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jericam832/color-game-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jericam832/color-game-2/issues"
+  },
+  "homepage": "https://github.com/jericam832/color-game-2#readme"
 }
